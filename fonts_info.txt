@@ -1,0 +1,9 @@
+List of Fonts used in template 
+
+Glegoo		http://www.google.com/webfonts/specimen/Glegoo
+Cabin		http://www.google.com/webfonts/family?family=Cabin&subset=latin#download
+Droid Sans	http://www.google.com/webfonts/specimen/Droid+Sans
+
+
+
+
