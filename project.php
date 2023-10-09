@@ -1,125 +1,117 @@
 <?php include 'header.php'; ?>
 
+	
+	<section class="hero-wrap hero-wrap-2" style="background-image: url('images/bg_2.jpg');" data-stellar-background-ratio="0.5">
+		<div class="overlay"></div>
+		<div class="container">
+			<div class="row no-gutters slider-text align-items-end justify-content-start">
+				<div class="col-md-9 ftco-animate pb-5">
+					<p class="breadcrumbs"><span class="mr-2"><a href="index.php">Home <i class="fa fa-chevron-right"></i></a></span> <span>Projects <i class="fa fa-chevron-right"></i></span></p>
+					<h1 class="mb-3 bread">Projects</h1>
+				</div>
+			</div>
+		</div>
+	</section>
 
+	<section class="ftco-section">
+		<div class="container">
+			<div class="row justify-content-center mb-5 pb-3">
+				<div class="col-md-7 text-center heading-section ftco-animate">
+					<span class="subheading">Our Global Work Industries</span>
+					<h2 class="mb-4">Latest Projects</h2>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-4">
+					<div class="project">
+						<a href="images/project-1.jpg" class="img image-popup d-flex align-items-center" style="background-image: url(images/project-1.jpg);">
+							<div class="icon d-flex align-items-center justify-content-center mb-5"><span class="fa fa-plus"></span></div>
+						</a>
+						<div class="text">
+							<span class="subheading">Building</span>
+							<h3>Building A Condominium</h3>
+							<p><span class="fa fa-map-marker mr-1"></span> San Francisco, California, USA</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="project">
+						<a href="images/project-2.jpg" class="img image-popup d-flex align-items-center" style="background-image: url(images/project-2.jpg);">
+							<div class="icon d-flex align-items-center justify-content-center mb-5"><span class="fa fa-plus"></span></div>
+						</a>
+						<div class="text">
+							<span class="subheading">Building</span>
+							<h3>Building A Condominium</h3>
+							<p><span class="fa fa-map-marker mr-1"></span> San Francisco, California, USA</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="project">
+						<a href="images/project-3.jpg" class="img image-popup d-flex align-items-center" style="background-image: url(images/project-3.jpg);">
+							<div class="icon d-flex align-items-center justify-content-center mb-5"><span class="fa fa-plus"></span></div>
+						</a>
+						<div class="text">
+							<span class="subheading">Building</span>
+							<h3>Building A Condominium</h3>
+							<p><span class="fa fa-map-marker mr-1"></span> San Francisco, California, USA</p>
+						</div>
+					</div>
+				</div>
 
-    <!-- Page Header Start -->
-    <div class="container-fluid page-header">
-        <h1 class="display-3 text-uppercase text-white mb-3">Project</h1>
-        <div class="d-inline-flex text-white">
-            <h6 class="text-uppercase m-0"><a href="">Home</a></h6>
-            <h6 class="text-white m-0 px-3">/</h6>
-            <h6 class="text-uppercase text-white m-0">Project</h6>
-        </div>
-    </div>
-    <!-- Page Header Start -->
-    
+				<div class="col-md-4">
+					<div class="project">
+						<a href="images/project-4.jpg" class="img image-popup d-flex align-items-center" style="background-image: url(images/project-4.jpg);">
+							<div class="icon d-flex align-items-center justify-content-center mb-5"><span class="fa fa-plus"></span></div>
+						</a>
+						<div class="text">
+							<span class="subheading">Building</span>
+							<h3>Building A Condominium</h3>
+							<p><span class="fa fa-map-marker mr-1"></span> San Francisco, California, USA</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="project">
+						<a href="images/project-5.jpg" class="img image-popup d-flex align-items-center" style="background-image: url(images/project-5.jpg);">
+							<div class="icon d-flex align-items-center justify-content-center mb-5"><span class="fa fa-plus"></span></div>
+						</a>
+						<div class="text">
+							<span class="subheading">Building</span>
+							<h3>Building A Condominium</h3>
+							<p><span class="fa fa-map-marker mr-1"></span> San Francisco, California, USA</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="project">
+						<a href="images/project-6.jpg" class="img image-popup d-flex align-items-center" style="background-image: url(images/project-6.jpg);">
+							<div class="icon d-flex align-items-center justify-content-center mb-5"><span class="fa fa-plus"></span></div>
+						</a>
+						<div class="text">
+							<span class="subheading">Building</span>
+							<h3>Building A Condominium</h3>
+							<p><span class="fa fa-map-marker mr-1"></span> San Francisco, California, USA</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="row mt-5">
+				<div class="col text-center">
+					<div class="block-27">
+						<ul>
+							<li><a href="#">&lt;</a></li>
+							<li class="active"><span>1</span></li>
+							<li><a href="#">2</a></li>
+							<li><a href="#">3</a></li>
+							<li><a href="#">4</a></li>
+							<li><a href="#">5</a></li>
+							<li><a href="#">&gt;</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
 
-    <!-- Portfolio Start -->
-    <div class="container-fluid bg-light py-6 px-5">
-        <div class="text-center mx-auto mb-5" style="max-width: 600px;">
-            <h1 class="display-5 text-uppercase mb-4">Some Of Our <span class="text-primary">Popular</span> Dream Projects</h1>
-        </div>
-        <div class="row gx-5">
-            <div class="col-12 text-center">
-                <div class="d-inline-block bg-dark-radial text-center pt-4 px-5 mb-5">
-                    <ul class="list-inline mb-0" id="portfolio-flters">
-                        <li class="btn btn-outline-primary bg-white p-2 active mx-2 mb-4" data-filter="*">
-                            <img src="img/portfolio-1.jpg" style="width: 150px; height: 100px;">
-                            <div class="position-absolute top-0 start-0 end-0 bottom-0 m-2 d-flex align-items-center justify-content-center" style="background: rgba(4, 15, 40, .3);">
-                                <h6 class="text-white text-uppercase m-0">All</h6>
-                            </div>
-                        </li>
-                        <li class="btn btn-outline-primary bg-white p-2 mx-2 mb-4" data-filter=".first">
-                            <img src="img/portfolio-2.jpg" style="width: 150px; height: 100px;">
-                            <div class="position-absolute top-0 start-0 end-0 bottom-0 m-2 d-flex align-items-center justify-content-center" style="background: rgba(4, 15, 40, .3);">
-                                <h6 class="text-white text-uppercase m-0">Construction</h6>
-                            </div>
-                        </li>
-                        <li class="btn btn-outline-primary bg-white p-2 mx-2 mb-4" data-filter=".second">
-                            <img src="img/portfolio-3.jpg" style="width: 150px; height: 100px;">
-                            <div class="position-absolute top-0 start-0 end-0 bottom-0 m-2 d-flex align-items-center justify-content-center" style="background: rgba(4, 15, 40, .3);">
-                                <h6 class="text-white text-uppercase m-0">Renovation</h6>
-                            </div>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-        <div class="row g-5 portfolio-container">
-            <div class="col-xl-4 col-lg-6 col-md-6 portfolio-item first">
-                <div class="position-relative portfolio-box">
-                    <img class="img-fluid w-100" src="img/portfolio-1.jpg" alt="">
-                    <a class="portfolio-title shadow-sm" href="">
-                        <p class="h4 text-uppercase">Project Name</p>
-                        <span class="text-body"><i class="fa fa-map-marker-alt text-primary me-2"></i>123 Street, New York, USA</span>
-                    </a>
-                    <a class="portfolio-btn" href="img/portfolio-1.jpg" data-lightbox="portfolio">
-                        <i class="bi bi-plus text-white"></i>
-                    </a>
-                </div>
-            </div>
-            <div class="col-xl-4 col-lg-6 col-md-6 portfolio-item second">
-                <div class="position-relative portfolio-box">
-                    <img class="img-fluid w-100" src="img/portfolio-2.jpg" alt="">
-                    <a class="portfolio-title shadow-sm" href="">
-                        <p class="h4 text-uppercase">Project Name</p>
-                        <span class="text-body"><i class="fa fa-map-marker-alt text-primary me-2"></i>123 Street, New York, USA</span>
-                    </a>
-                    <a class="portfolio-btn" href="img/portfolio-2.jpg" data-lightbox="portfolio">
-                        <i class="bi bi-plus text-white"></i>
-                    </a>
-                </div>
-            </div>
-            <div class="col-xl-4 col-lg-6 col-md-6 portfolio-item first">
-                <div class="position-relative portfolio-box">
-                    <img class="img-fluid w-100" src="img/portfolio-3.jpg" alt="">
-                    <a class="portfolio-title shadow-sm" href="">
-                        <p class="h4 text-uppercase">Project Name</p>
-                        <span class="text-body"><i class="fa fa-map-marker-alt text-primary me-2"></i>123 Street, New York, USA</span>
-                    </a>
-                    <a class="portfolio-btn" href="img/portfolio-3.jpg" data-lightbox="portfolio">
-                        <i class="bi bi-plus text-white"></i>
-                    </a>
-                </div>
-            </div>
-            <div class="col-xl-4 col-lg-6 col-md-6 portfolio-item second">
-                <div class="position-relative portfolio-box">
-                    <img class="img-fluid w-100" src="img/portfolio-4.jpg" alt="">
-                    <a class="portfolio-title shadow-sm" href="">
-                        <p class="h4 text-uppercase">Project Name</p>
-                        <span class="text-body"><i class="fa fa-map-marker-alt text-primary me-2"></i>123 Street, New York, USA</span>
-                    </a>
-                    <a class="portfolio-btn" href="img/portfolio-4.jpg" data-lightbox="portfolio">
-                        <i class="bi bi-plus text-white"></i>
-                    </a>
-                </div>
-            </div>
-            <div class="col-xl-4 col-lg-6 col-md-6 portfolio-item first">
-                <div class="position-relative portfolio-box">
-                    <img class="img-fluid w-100" src="img/portfolio-5.jpg" alt="">
-                    <a class="portfolio-title shadow-sm" href="">
-                        <p class="h4 text-uppercase">Project Name</p>
-                        <span class="text-body"><i class="fa fa-map-marker-alt text-primary me-2"></i>123 Street, New York, USA</span>
-                    </a>
-                    <a class="portfolio-btn" href="img/portfolio-5.jpg" data-lightbox="portfolio">
-                        <i class="bi bi-plus text-white"></i>
-                    </a>
-                </div>
-            </div>
-            <div class="col-xl-4 col-lg-6 col-md-6 portfolio-item second">
-                <div class="position-relative portfolio-box">
-                    <img class="img-fluid w-100" src="img/portfolio-6.jpg" alt="">
-                    <a class="portfolio-title shadow-sm" href="">
-                        <p class="h4 text-uppercase">Project Name</p>
-                        <span class="text-body"><i class="fa fa-map-marker-alt text-primary me-2"></i>123 Street, New York, USA</span>
-                    </a>
-                    <a class="portfolio-btn" href="img/portfolio-6.jpg" data-lightbox="portfolio">
-                        <i class="bi bi-plus text-white"></i>
-                    </a>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Portfolio End -->
-    
 <?php include 'footer.php'; ?>

@@ -1,538 +1,420 @@
 <?php include 'header.php'; ?>
-    <!-- Carousel Start -->
-    <div class="container-fluid p-0">
-        <div id="header-carousel" class="carousel slide carousel-fade" data-bs-ride="carousel">
-            <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <img class="w-100" src="img/carousel-1.jpg" alt="Image">
-                    <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
-                        <div class="p-3" style="max-width: 900px;">
-                            <i class="fa fa-home fa-4x text-primary mb-4 d-none d-sm-block"></i>
-                            <h1 class="display-2 text-uppercase text-white mb-md-4">Build Your Dream House With Us</h1>
-                            <a href="" class="btn btn-primary py-md-3 px-md-5 mt-2">Get A Quote</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="carousel-item">
-                    <img class="w-100" src="img/carousel-2.jpg" alt="Image">
-                    <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
-                        <div class="p-3" style="max-width: 900px;">
-                            <i class="fa fa-tools fa-4x text-primary mb-4 d-none d-sm-block"></i>
-                            <h1 class="display-2 text-uppercase text-white mb-md-4">We Are Trusted For Your Project</h1>
-                            <a href="" class="btn btn-primary py-md-3 px-md-5 mt-2">Contact Us</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#header-carousel"
-                data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#header-carousel"
-                data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Next</span>
-            </button>
-        </div>
-    </div>
-    <!-- Carousel End -->
+	<section class="hero-wrap js-fullheight" style="background-image: url('images/bg_1.jpg');" data-stellar-background-ratio="0.5">
+		<div class="overlay"></div>
+		<div class="container">
+			<div class="row no-gutters slider-text js-fullheight align-items-center" data-scrollax-parent="true">
+				<div class="col-lg-6 ftco-animate">
+					<div class="mt-5">
+						<h1 class="mb-4">We Build <br>Great Projects</h1>
+						<p class="mb-4">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove.</p>
+						<p><a href="#" class="btn btn-primary">Our Services</a> <a href="#" class="btn btn-white" data-toggle="modal" data-target="#exampleModalCenter">Request A Quote</a></p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
 
+	<section class="ftco-section ftco-no-pt ftco-no-pb ftco-services-2">
+		<div class="container">
+			<div class="row no-gutters d-flex">
+				<div class="col-lg-4 d-flex align-self-stretch ftco-animate">
+					<div class="media block-6 services d-flex">
+						<div class="icon justify-content-center align-items-center d-flex"><span class="flaticon-engineer-1"></span></div>
+						<div class="media-body pl-4">
+							<h3 class="heading mb-3">Quality Construction</h3>
+							<p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+						</div>
+					</div>      
+				</div>
+				<div class="col-lg-4 d-flex align-self-stretch ftco-animate">
+					<div class="media block-6 services services-2 d-flex">
+						<div class="icon justify-content-center align-items-center d-flex"><span class="flaticon-worker-1"></span></div>
+						<div class="media-body pl-4">
+							<h3 class="heading mb-3">Professional Liability</h3>
+							<p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+						</div>
+					</div>      
+				</div>
+				<div class="col-lg-4 d-flex align-self-stretch ftco-animate">
+					<div class="media block-6 services d-flex">
+						<div class="icon justify-content-center align-items-center d-flex"><span class="flaticon-engineer"></span></div>
+						<div class="media-body pl-4">
+							<h3 class="heading mb-3">Dedicated To Our Clients</h3>
+							<p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+						</div>
+					</div>      
+				</div>
+			</div>
+		</div>
+	</section>
 
-    <!-- About Start -->
-    <div class="container-fluid py-6 px-5">
-        <div class="row g-5">
-            <div class="col-lg-7">
-                <h1 class="display-5 text-uppercase mb-4">We are <span class="text-primary">the Leader</span> in Construction Industry</h1>
-                <h4 class="text-uppercase mb-3 text-body">Tempor erat elitr at rebum at at clita. Diam dolor diam ipsum tempor sit diam amet diam et eos labore</h4>
-                <p>Tempor erat elitr at rebum at at clita aliquyam consetetur. Diam dolor diam ipsum et, tempor voluptua sit consetetur sit. Aliquyam diam amet diam et eos sadipscing labore. Clita erat ipsum et lorem et sit, sed stet no labore lorem sit. Sanctus clita duo justo et tempor</p>
-                <div class="row gx-5 py-2">
-                    <div class="col-sm-6 mb-2">
-                        <p class="fw-bold mb-2"><i class="fa fa-check text-primary me-3"></i>Perfect Planning</p>
-                        <p class="fw-bold mb-2"><i class="fa fa-check text-primary me-3"></i>Professional Workers</p>
-                        <p class="fw-bold mb-2"><i class="fa fa-check text-primary me-3"></i>First Working Process</p>
-                    </div>
-                    <div class="col-sm-6 mb-2">
-                        <p class="fw-bold mb-2"><i class="fa fa-check text-primary me-3"></i>Perfect Planning</p>
-                        <p class="fw-bold mb-2"><i class="fa fa-check text-primary me-3"></i>Professional Workers</p>
-                        <p class="fw-bold mb-2"><i class="fa fa-check text-primary me-3"></i>First Working Process</p>
-                    </div>
-                </div>
-                <p class="mb-4">Tempor erat elitr at rebum at at clita aliquyam consetetur. Diam dolor diam ipsum et, tempor voluptua sit consetetur sit. Aliquyam diam amet diam et eos labore</p>
-                <img src="img/signature.jpg" alt="">
-            </div>
-            <div class="col-lg-5 pb-5" style="min-height: 400px;">
-                <div class="position-relative bg-dark-radial h-100 ms-5">
-                    <img class="position-absolute w-100 h-100 mt-5 ms-n5" src="img/about.jpg" style="object-fit: cover;">
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- About End -->
-    
+	<section class="ftco-section" id="about-section">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-6 d-flex align-items-stretch">
+					<div class="about-wrap img w-100" style="background-image: url(images/about.jpg);">
+						<div class="icon d-flex align-items-center justify-content-center"><span class="flaticon-crane"></span></div>
+					</div>
+				</div>
+				<div class="col-md-6 py-5 pl-md-5">
+					<div class="row justify-content-center mb-4 pt-md-4">
+						<div class="col-md-12 heading-section ftco-animate">
+							<span class="subheading">Welcome to Wilcon</span>
+							<h2 class="mb-4">Wilcon A Construction Company</h2>
+							<div class="d-flex about">
+								<div class="icon"><span class="flaticon-hammer"></span></div>
+								<h3>We're in this business since 1975 and We provide the best insdustrial services</h3>
+							</div>
+							<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
+							<div class="d-flex video-image align-items-center mt-md-4">
+								<a href="#" class="video img d-flex align-items-center justify-content-center" style="background-image: url(images/about-2.jpg);">
+									<span class="fa fa-play-circle"></span>
+								</a>
+								<h4 class="ml-4">This is how we work on our clients, Watch video</h4>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
 
-    <!-- Services Start -->
-    <div class="container-fluid bg-light py-6 px-5">
-        <div class="text-center mx-auto mb-5" style="max-width: 600px;">
-            <h1 class="display-5 text-uppercase mb-4">We Provide <span class="text-primary">The Best</span> Construction Services</h1>
-        </div>
-        <div class="row g-5">
-            <div class="col-lg-4 col-md-6">
-                <div class="service-item bg-white d-flex flex-column align-items-center text-center">
-                    <img class="img-fluid" src="img/service-1.jpg" alt="">
-                    <div class="service-icon bg-white">
-                        <i class="fa fa-3x fa-building text-primary"></i>
-                    </div>
-                    <div class="px-4 pb-4">
-                        <h4 class="text-uppercase mb-3">Building Construction</h4>
-                        <p>Duo dolore et diam sed ipsum stet amet duo diam. Rebum amet ut amet sed erat sed sed amet magna elitr amet kasd diam duo</p>
-                        <a class="btn text-primary" href="">Read More <i class="bi bi-arrow-right"></i></a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-4 col-md-6">
-                <div class="service-item bg-white rounded d-flex flex-column align-items-center text-center">
-                    <img class="img-fluid" src="img/service-2.jpg" alt="">
-                    <div class="service-icon bg-white">
-                        <i class="fa fa-3x fa-home text-primary"></i>
-                    </div>
-                    <div class="px-4 pb-4">
-                        <h4 class="text-uppercase mb-3">House Renovation</h4>
-                        <p>Duo dolore et diam sed ipsum stet amet duo diam. Rebum amet ut amet sed erat sed sed amet magna elitr amet kasd diam duo</p>
-                        <a class="btn text-primary" href="">Read More <i class="bi bi-arrow-right"></i></a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-4 col-md-6">
-                <div class="service-item bg-white rounded d-flex flex-column align-items-center text-center">
-                    <img class="img-fluid" src="img/service-3.jpg" alt="">
-                    <div class="service-icon bg-white">
-                        <i class="fa fa-3x fa-drafting-compass text-primary"></i>
-                    </div>
-                    <div class="px-4 pb-4">
-                        <h4 class="text-uppercase mb-3">Architecture Design</h4>
-                        <p>Duo dolore et diam sed ipsum stet amet duo diam. Rebum amet ut amet sed erat sed sed amet magna elitr amet kasd diam duo</p>
-                        <a class="btn text-primary" href="">Read More <i class="bi bi-arrow-right"></i></a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-4 col-md-6">
-                <div class="service-item bg-white rounded d-flex flex-column align-items-center text-center">
-                    <img class="img-fluid" src="img/service-4.jpg" alt="">
-                    <div class="service-icon bg-white">
-                        <i class="fa fa-3x fa-palette text-primary"></i>
-                    </div>
-                    <div class="px-4 pb-4">
-                        <h4 class="text-uppercase mb-3">Interior Design</h4>
-                        <p>Duo dolore et diam sed ipsum stet amet duo diam. Rebum amet ut amet sed erat sed sed amet magna elitr amet kasd diam duo</p>
-                        <a class="btn text-primary" href="">Read More <i class="bi bi-arrow-right"></i></a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-4 col-md-6">
-                <div class="service-item bg-white rounded d-flex flex-column align-items-center text-center">
-                    <img class="img-fluid" src="img/service-5.jpg" alt="">
-                    <div class="service-icon bg-white">
-                        <i class="fa fa-3x fa-tools text-primary"></i>
-                    </div>
-                    <div class="px-4 pb-4">
-                        <h4 class="text-uppercase mb-3">Fixing & Support</h4>
-                        <p>Duo dolore et diam sed ipsum stet amet duo diam. Rebum amet ut amet sed erat sed sed amet magna elitr amet kasd diam duo</p>
-                        <a class="btn text-primary" href="">Read More <i class="bi bi-arrow-right"></i></a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-4 col-md-6">
-                <div class="service-item bg-white rounded d-flex flex-column align-items-center text-center">
-                    <img class="img-fluid" src="img/service-6.jpg" alt="">
-                    <div class="service-icon bg-white">
-                        <i class="fa fa-3x fa-paint-brush text-primary"></i>
-                    </div>
-                    <div class="px-4 pb-4">
-                        <h4 class="text-uppercase mb-3">Painting</h4>
-                        <p>Duo dolore et diam sed ipsum stet amet duo diam. Rebum amet ut amet sed erat sed sed amet magna elitr amet kasd diam duo</p>
-                        <a class="btn text-primary" href="">Read More <i class="bi bi-arrow-right"></i></a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Services End -->
+	<section class="ftco-intro">
+		<div class="container">
+			<div class="row justify-content-center">
+				<div class="col-md-12 text-center">
+					<div class="img"  style="background-image: url(images/bg_2.jpg);">
+						<div class="overlay"></div>
+						<h2>Providing Personalized and High Quality Services</h2>
+						<p>We can manage your dream building A small river named Duden flows by their place</p>
+						<p class="mb-0"><a href="#" class="btn btn-primary px-4 py-3">Request A Quote</a></p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
 
+	<section class="ftco-section bg-half-light">
+		<div class="container">
+			<div class="row justify-content-center mb-5 pb-2">
+				<div class="col-md-8 text-center heading-section ftco-animate">
+					<span class="subheading">Our Services</span>
+					<h2 class="mb-4">We Offer Services</h2>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-4">
+					<div class="services-wrap ftco-animate">
+						<div class="img" style="background-image: url(images/services-1.jpg);"></div>
+						<div class="text">
+							<div class="icon"><span class="flaticon-architect"></span></div>
+							<h2>Architecture</h2>
+							<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia</p>
+							<a href="#" class="btn-custom">Read more</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="services-wrap ftco-animate">
+						<div class="img" style="background-image: url(images/services-2.jpg);"></div>
+						<div class="text">
+							<div class="icon"><span class="flaticon-worker"></span></div>
+							<h2>Renovation</h2>
+							<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia</p>
+							<a href="#" class="btn-custom">Read more</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="services-wrap ftco-animate">
+						<div class="img" style="background-image: url(images/services-3.jpg);"></div>
+						<div class="text">
+							<div class="icon"><span class="flaticon-hammer"></span></div>
+							<h2>Construction</h2>
+							<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia</p>
+							<a href="#" class="btn-custom">Read more</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
 
-    <!-- Appointment Start -->
-    <div class="container-fluid py-6 px-5">
-        <div class="row gx-5">
-            <div class="col-lg-4 mb-5 mb-lg-0">
-                <div class="mb-4">
-                    <h1 class="display-5 text-uppercase mb-4">Request A <span class="text-primary">Call Back</span></h1>
-                </div>
-                <p class="mb-5">Nonumy ipsum amet tempor takimata vero ea elitr. Diam diam ut et eos duo duo sed. Lorem elitr sadipscing eos et ut et stet justo, sit dolore et voluptua labore. Ipsum erat et ea ipsum magna sadipscing lorem. Sit lorem sea sanctus eos. Sanctus sit tempor dolores ipsum stet justo sit erat ea, sed diam sanctus takimata sit. Et at voluptua amet erat justo amet ea ipsum eos, eirmod accusam sea sed ipsum kasd ut.</p>
-                <a class="btn btn-primary py-3 px-5" href="">Get A Quote</a>
-            </div>
-            <div class="col-lg-8">
-                <div class="bg-light text-center p-5">
-                    <form>
-                        <div class="row g-3">
-                            <div class="col-12 col-sm-6">
-                                <input type="text" class="form-control border-0" placeholder="Your Name" style="height: 55px;">
-                            </div>
-                            <div class="col-12 col-sm-6">
-                                <input type="email" class="form-control border-0" placeholder="Your Email" style="height: 55px;">
-                            </div>
-                            <div class="col-12 col-sm-6">
-                                <div class="date" id="date" data-target-input="nearest">
-                                    <input type="text"
-                                        class="form-control border-0 datetimepicker-input"
-                                        placeholder="Call Back Date" data-target="#date" data-toggle="datetimepicker" style="height: 55px;">
-                                </div>
-                            </div>
-                            <div class="col-12 col-sm-6">
-                                <div class="time" id="time" data-target-input="nearest">
-                                    <input type="text"
-                                        class="form-control border-0 datetimepicker-input"
-                                        placeholder="Call Back Time" data-target="#time" data-toggle="datetimepicker" style="height: 55px;">
-                                </div>
-                            </div>
-                            <div class="col-12">
-                                <textarea class="form-control border-0" rows="5" placeholder="Message"></textarea>
-                            </div>
-                            <div class="col-12">
-                                <button class="btn btn-primary w-100 py-3" type="submit">Submit Request</button>
-                            </div>
-                        </div>
-                    </form>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Appointment End -->
+	<section class="ftco-section ftco-no-pt ftco-no-pb ftco-counter">
+		<div class="img image-overlay" style="background-image: url(images/about-3.jpg);"></div>
+		<div class="container">
+			<div class="row no-gutters">
+				<div class="col-md-6 py-5 bg-secondary aside-stretch">
+					<div class="heading-section heading-section-white p-4 pl-md-0 py-md-5 pr-md-5">
+						<span class="subheading">Wilcon A Construction Company</span>
+						<h2 class="mb-4">Best Provider for Industrial Services</h2>
+						<h4>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</h4>
+						<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean</p>
+					</div>
+				</div>
+				<div class="col-md-6 d-flex align-items-center">
+					<div class="row">
+						<div class="col-md-12 d-flex counter-wrap ftco-animate">
+							<div class="block-18 bg-primary d-flex align-items-center justify-content-between">
+								<div class="icon d-flex align-items-center justify-content-center"><span class="flaticon-engineer"></span></div>
+								<div class="text">
+									<strong class="number" data-number="48000">0</strong>
+									<span>Project Completed</span>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-12 d-flex counter-wrap ftco-animate">
+							<div class="block-18 d-flex align-items-center justify-content-between">
+								<div class="icon d-flex align-items-center justify-content-center"><span class="flaticon-worker-1"></span></div>
+								<div class="text">
+									<strong class="number" data-number="54900">0</strong>
+									<span>Happy Customers</span>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
 
+	<section class="ftco-section">
+		<div class="container">
+			<div class="row justify-content-center mb-5 pb-3">
+				<div class="col-md-7 text-center heading-section ftco-animate">
+					<span class="subheading">Our Global Work Industries</span>
+					<h2 class="mb-4">Latest Projects</h2>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-4">
+					<div class="project">
+						<a href="images/project-1.jpg" class="img image-popup d-flex align-items-center" style="background-image: url(images/project-1.jpg);">
+							<div class="icon d-flex align-items-center justify-content-center mb-5"><span class="fa fa-plus"></span></div>
+						</a>
+						<div class="text">
+							<span class="subheading">Building</span>
+							<h3>Building A Condominium</h3>
+							<p><span class="fa fa-map-marker mr-1"></span> San Francisco, California, USA</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="project">
+						<a href="images/project-1.jpg" class="img image-popup d-flex align-items-center" style="background-image: url(images/project-1.jpg);">
+							<div class="icon d-flex align-items-center justify-content-center mb-5"><span class="fa fa-plus"></span></div>
+						</a>
+						<div class="text">
+							<span class="subheading">Building</span>
+							<h3>Building A Condominium</h3>
+							<p><span class="fa fa-map-marker mr-1"></span> San Francisco, California, USA</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="project">
+						<a href="images/project-1.jpg" class="img image-popup d-flex align-items-center" style="background-image: url(images/project-1.jpg);">
+							<div class="icon d-flex align-items-center justify-content-center mb-5"><span class="fa fa-plus"></span></div>
+						</a>
+						<div class="text">
+							<span class="subheading">Building</span>
+							<h3>Building A Condominium</h3>
+							<p><span class="fa fa-map-marker mr-1"></span> San Francisco, California, USA</p>
+						</div>
+					</div>
+				</div>
 
-    <!-- Portfolio Start -->
-    <div class="container-fluid bg-light py-6 px-5">
-        <div class="text-center mx-auto mb-5" style="max-width: 600px;">
-            <h1 class="display-5 text-uppercase mb-4">Some Of Our <span class="text-primary">Popular</span> Dream Projects</h1>
-        </div>
-        <div class="row gx-5">
-            <div class="col-12 text-center">
-                <div class="d-inline-block bg-dark-radial text-center pt-4 px-5 mb-5">
-                    <ul class="list-inline mb-0" id="portfolio-flters">
-                        <li class="btn btn-outline-primary bg-white p-2 active mx-2 mb-4" data-filter="*">
-                            <img src="img/portfolio-1.jpg" style="width: 150px; height: 100px;">
-                            <div class="position-absolute top-0 start-0 end-0 bottom-0 m-2 d-flex align-items-center justify-content-center" style="background: rgba(4, 15, 40, .3);">
-                                <h6 class="text-white text-uppercase m-0">All</h6>
-                            </div>
-                        </li>
-                        <li class="btn btn-outline-primary bg-white p-2 mx-2 mb-4" data-filter=".first">
-                            <img src="img/portfolio-2.jpg" style="width: 150px; height: 100px;">
-                            <div class="position-absolute top-0 start-0 end-0 bottom-0 m-2 d-flex align-items-center justify-content-center" style="background: rgba(4, 15, 40, .3);">
-                                <h6 class="text-white text-uppercase m-0">Construction</h6>
-                            </div>
-                        </li>
-                        <li class="btn btn-outline-primary bg-white p-2 mx-2 mb-4" data-filter=".second">
-                            <img src="img/portfolio-3.jpg" style="width: 150px; height: 100px;">
-                            <div class="position-absolute top-0 start-0 end-0 bottom-0 m-2 d-flex align-items-center justify-content-center" style="background: rgba(4, 15, 40, .3);">
-                                <h6 class="text-white text-uppercase m-0">Renovation</h6>
-                            </div>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-        <div class="row g-5 portfolio-container">
-            <div class="col-xl-4 col-lg-6 col-md-6 portfolio-item first">
-                <div class="position-relative portfolio-box">
-                    <img class="img-fluid w-100" src="img/portfolio-1.jpg" alt="">
-                    <a class="portfolio-title shadow-sm" href="">
-                        <p class="h4 text-uppercase">Project Name</p>
-                        <span class="text-body"><i class="fa fa-map-marker-alt text-primary me-2"></i>123 Street, New York, USA</span>
-                    </a>
-                    <a class="portfolio-btn" href="img/portfolio-1.jpg" data-lightbox="portfolio">
-                        <i class="bi bi-plus text-white"></i>
-                    </a>
-                </div>
-            </div>
-            <div class="col-xl-4 col-lg-6 col-md-6 portfolio-item second">
-                <div class="position-relative portfolio-box">
-                    <img class="img-fluid w-100" src="img/portfolio-2.jpg" alt="">
-                    <a class="portfolio-title shadow-sm" href="">
-                        <p class="h4 text-uppercase">Project Name</p>
-                        <span class="text-body"><i class="fa fa-map-marker-alt text-primary me-2"></i>123 Street, New York, USA</span>
-                    </a>
-                    <a class="portfolio-btn" href="img/portfolio-2.jpg" data-lightbox="portfolio">
-                        <i class="bi bi-plus text-white"></i>
-                    </a>
-                </div>
-            </div>
-            <div class="col-xl-4 col-lg-6 col-md-6 portfolio-item first">
-                <div class="position-relative portfolio-box">
-                    <img class="img-fluid w-100" src="img/portfolio-3.jpg" alt="">
-                    <a class="portfolio-title shadow-sm" href="">
-                        <p class="h4 text-uppercase">Project Name</p>
-                        <span class="text-body"><i class="fa fa-map-marker-alt text-primary me-2"></i>123 Street, New York, USA</span>
-                    </a>
-                    <a class="portfolio-btn" href="img/portfolio-3.jpg" data-lightbox="portfolio">
-                        <i class="bi bi-plus text-white"></i>
-                    </a>
-                </div>
-            </div>
-            <div class="col-xl-4 col-lg-6 col-md-6 portfolio-item second">
-                <div class="position-relative portfolio-box">
-                    <img class="img-fluid w-100" src="img/portfolio-4.jpg" alt="">
-                    <a class="portfolio-title shadow-sm" href="">
-                        <p class="h4 text-uppercase">Project Name</p>
-                        <span class="text-body"><i class="fa fa-map-marker-alt text-primary me-2"></i>123 Street, New York, USA</span>
-                    </a>
-                    <a class="portfolio-btn" href="img/portfolio-4.jpg" data-lightbox="portfolio">
-                        <i class="bi bi-plus text-white"></i>
-                    </a>
-                </div>
-            </div>
-            <div class="col-xl-4 col-lg-6 col-md-6 portfolio-item first">
-                <div class="position-relative portfolio-box">
-                    <img class="img-fluid w-100" src="img/portfolio-5.jpg" alt="">
-                    <a class="portfolio-title shadow-sm" href="">
-                        <p class="h4 text-uppercase">Project Name</p>
-                        <span class="text-body"><i class="fa fa-map-marker-alt text-primary me-2"></i>123 Street, New York, USA</span>
-                    </a>
-                    <a class="portfolio-btn" href="img/portfolio-5.jpg" data-lightbox="portfolio">
-                        <i class="bi bi-plus text-white"></i>
-                    </a>
-                </div>
-            </div>
-            <div class="col-xl-4 col-lg-6 col-md-6 portfolio-item second">
-                <div class="position-relative portfolio-box">
-                    <img class="img-fluid w-100" src="img/portfolio-6.jpg" alt="">
-                    <a class="portfolio-title shadow-sm" href="">
-                        <p class="h4 text-uppercase">Project Name</p>
-                        <span class="text-body"><i class="fa fa-map-marker-alt text-primary me-2"></i>123 Street, New York, USA</span>
-                    </a>
-                    <a class="portfolio-btn" href="img/portfolio-6.jpg" data-lightbox="portfolio">
-                        <i class="bi bi-plus text-white"></i>
-                    </a>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Portfolio End -->
+				<div class="col-md-4">
+					<div class="project">
+						<a href="images/project-1.jpg" class="img image-popup d-flex align-items-center" style="background-image: url(images/project-1.jpg);">
+							<div class="icon d-flex align-items-center justify-content-center mb-5"><span class="fa fa-plus"></span></div>
+						</a>
+						<div class="text">
+							<span class="subheading">Building</span>
+							<h3>Building A Condominium</h3>
+							<p><span class="fa fa-map-marker mr-1"></span> San Francisco, California, USA</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="project">
+						<a href="images/project-1.jpg" class="img image-popup d-flex align-items-center" style="background-image: url(images/project-1.jpg);">
+							<div class="icon d-flex align-items-center justify-content-center mb-5"><span class="fa fa-plus"></span></div>
+						</a>
+						<div class="text">
+							<span class="subheading">Building</span>
+							<h3>Building A Condominium</h3>
+							<p><span class="fa fa-map-marker mr-1"></span> San Francisco, California, USA</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="project">
+						<a href="images/project-1.jpg" class="img image-popup d-flex align-items-center" style="background-image: url(images/project-1.jpg);">
+							<div class="icon d-flex align-items-center justify-content-center mb-5"><span class="fa fa-plus"></span></div>
+						</a>
+						<div class="text">
+							<span class="subheading">Building</span>
+							<h3>Building A Condominium</h3>
+							<p><span class="fa fa-map-marker mr-1"></span> San Francisco, California, USA</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
 
+	<section class="ftco-section ftco-no-pt ftco-no-pb testimony-section img">
+		<div class="overlay"></div>
+		<div class="container">
+			<div class="row ftco-animate justify-content-center">
+				<div class="col-md-6 p-4 pl-md-0 py-md-5 pr-md-5 aside-stretch d-flex align-items-center">
+					<div class="heading-section heading-section-white">
+						<span class="subheading" style="color:#fff;">Read Testimonials</span>
+						<h2 class="mb-4" style="font-size: 50px;">It's always a joy to hear that the work we do has positively reviews</h2>
+					</div>
+				</div>
+				<div class="col-md-6 pl-md-5 py-4 py-md-5 aside-stretch-right">
+					<div class="carousel-testimony owl-carousel ftco-owl">
+						<div class="item">
+							<div class="testimony-wrap py-4 pb-5 d-flex justify-content-between align-items-end">
+								<div class="user-img" style="background-image: url(images/person_1.jpg)">
+									<span class="quote d-flex align-items-center justify-content-center">
+										<i class="fa fa-quote-left"></i>
+									</span>
+								</div>
+								<div class="text">
+									<p class="mb-4">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean</p>
+									<p class="name">Jeff Freshman</p>
+									<span class="position">Guests</span>
+								</div>
+							</div>
+						</div>
+						<div class="item">
+							<div class="testimony-wrap py-4 pb-5 d-flex justify-content-between align-items-end">
+								<div class="user-img" style="background-image: url(images/person_2.jpg)">
+									<span class="quote d-flex align-items-center justify-content-center">
+										<i class="fa fa-quote-left"></i>
+									</span>
+								</div>
+								<div class="text">
+									<p class="mb-4">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean</p>
+									<p class="name">Jeff Freshman</p>
+									<span class="position">Guests</span>
+								</div>
+							</div>
+						</div>
+						<div class="item">
+							<div class="testimony-wrap py-4 pb-5 d-flex justify-content-between align-items-end">
+								<div class="user-img" style="background-image: url(images/person_3.jpg)">
+									<span class="quote d-flex align-items-center justify-content-center">
+										<i class="fa fa-quote-left"></i>
+									</span>
+								</div>
+								<div class="text">
+									<p class="mb-4">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean</p>
+									<p class="name">Jeff Freshman</p>
+									<span class="position">Guests</span>
+								</div>
+							</div>
+						</div>
+						<div class="item">
+							<div class="testimony-wrap py-4 pb-5 d-flex justify-content-between align-items-end">
+								<div class="user-img" style="background-image: url(images/person_1.jpg)">
+									<span class="quote d-flex align-items-center justify-content-center">
+										<i class="fa fa-quote-left"></i>
+									</span>
+								</div>
+								<div class="text">
+									<p class="mb-4">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean</p>
+									<p class="name">Jeff Freshman</p>
+									<span class="position">Guests</span>
+								</div>
+							</div>
+						</div>
+						<div class="item">
+							<div class="testimony-wrap py-4 pb-5 d-flex justify-content-between align-items-end">
+								<div class="user-img" style="background-image: url(images/person_3.jpg)">
+									<span class="quote d-flex align-items-center justify-content-center">
+										<i class="fa fa-quote-left"></i>
+									</span>
+								</div>
+								<div class="text">
+									<p class="mb-4">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean</p>
+									<p class="name">Jeff Freshman</p>
+									<span class="position">Guests</span>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
 
-    <!-- Team Start -->
-    <div class="container-fluid py-6 px-5">
-        <div class="text-center mx-auto mb-5" style="max-width: 600px;">
-            <h1 class="display-5 text-uppercase mb-4">We Are <span class="text-primary">Professional & Expert</span> Workers</h1>
-        </div>
-        <div class="row g-5">
-            <div class="col-xl-3 col-lg-4 col-md-6">
-                <div class="row g-0">
-                    <div class="col-10" style="min-height: 300px;">
-                        <div class="position-relative h-100">
-                            <img class="position-absolute w-100 h-100" src="img/team-1.jpg" style="object-fit: cover;">
-                        </div>
-                    </div>
-                    <div class="col-2">
-                        <div class="h-100 d-flex flex-column align-items-center justify-content-between bg-light">
-                            <a class="btn" href="#"><i class="fab fa-twitter"></i></a>
-                            <a class="btn" href="#"><i class="fab fa-facebook-f"></i></a>
-                            <a class="btn" href="#"><i class="fab fa-linkedin-in"></i></a>
-                            <a class="btn" href="#"><i class="fab fa-instagram"></i></a>
-                            <a class="btn" href="#"><i class="fab fa-youtube"></i></a>
-                        </div>
-                    </div>
-                    <div class="col-12">
-                        <div class="bg-light p-4">
-                            <h4 class="text-uppercase">Adam Phillips</h4>
-                            <span>CEO & Founder</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-xl-3 col-lg-4 col-md-6">
-                <div class="row g-0">
-                    <div class="col-10" style="min-height: 300px;">
-                        <div class="position-relative h-100">
-                            <img class="position-absolute w-100 h-100" src="img/team-2.jpg" style="object-fit: cover;">
-                        </div>
-                    </div>
-                    <div class="col-2">
-                        <div class="h-100 d-flex flex-column align-items-center justify-content-between bg-light">
-                            <a class="btn" href="#"><i class="fab fa-twitter"></i></a>
-                            <a class="btn" href="#"><i class="fab fa-facebook-f"></i></a>
-                            <a class="btn" href="#"><i class="fab fa-linkedin-in"></i></a>
-                            <a class="btn" href="#"><i class="fab fa-instagram"></i></a>
-                            <a class="btn" href="#"><i class="fab fa-youtube"></i></a>
-                        </div>
-                    </div>
-                    <div class="col-12">
-                        <div class="bg-light p-4">
-                            <h4 class="text-uppercase">Dylan Adams</h4>
-                            <span>Civil Engineer</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-xl-3 col-lg-4 col-md-6">
-                <div class="row g-0">
-                    <div class="col-10" style="min-height: 300px;">
-                        <div class="position-relative h-100">
-                            <img class="position-absolute w-100 h-100" src="img/team-3.jpg" style="object-fit: cover;">
-                        </div>
-                    </div>
-                    <div class="col-2">
-                        <div class="h-100 d-flex flex-column align-items-center justify-content-between bg-light">
-                            <a class="btn" href="#"><i class="fab fa-twitter"></i></a>
-                            <a class="btn" href="#"><i class="fab fa-facebook-f"></i></a>
-                            <a class="btn" href="#"><i class="fab fa-linkedin-in"></i></a>
-                            <a class="btn" href="#"><i class="fab fa-instagram"></i></a>
-                            <a class="btn" href="#"><i class="fab fa-youtube"></i></a>
-                        </div>
-                    </div>
-                    <div class="col-12">
-                        <div class="bg-light p-4">
-                            <h4 class="text-uppercase">Jhon Doe</h4>
-                            <span>Interior Designer</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-xl-3 col-lg-4 col-md-6">
-                <div class="row g-0">
-                    <div class="col-10" style="min-height: 300px;">
-                        <div class="position-relative h-100">
-                            <img class="position-absolute w-100 h-100" src="img/team-4.jpg" style="object-fit: cover;">
-                        </div>
-                    </div>
-                    <div class="col-2">
-                        <div class="h-100 d-flex flex-column align-items-center justify-content-between bg-light">
-                            <a class="btn" href="#"><i class="fab fa-twitter"></i></a>
-                            <a class="btn" href="#"><i class="fab fa-facebook-f"></i></a>
-                            <a class="btn" href="#"><i class="fab fa-linkedin-in"></i></a>
-                            <a class="btn" href="#"><i class="fab fa-instagram"></i></a>
-                            <a class="btn" href="#"><i class="fab fa-youtube"></i></a>
-                        </div>
-                    </div>
-                    <div class="col-12">
-                        <div class="bg-light p-4">
-                            <h4 class="text-uppercase">Josh Dunn</h4>
-                            <span>Painter</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Team End -->
+	<section class="ftco-section bg-light">
+		<div class="container">
+			<div class="row justify-content-center mb-5 pb-3">
+				<div class="col-md-10 heading-section text-center ftco-animate">
+					<span class="subheading">Our Blog</span>
+					<h2 class="mb-4">Latest Blog Updates</h2>
+				</div>
+			</div>
+			<div class="row d-flex">
+				<div class="col-lg-4 ftco-animate">
+					<div class="blog-entry">
+						<a href="#" class="block-20" style="background-image: url('images/image_1.jpg');">
+						</a>
+						<div class="text d-block">
+							<div class="meta">
+								<p>
+									<a href="#"><span class="fa fa-calendar mr-2"></span>Sept. 06, 2020</a>
+									<a href="#"><span class="fa fa-user mr-2"></span>Admin</a>
+									<a href="#" class="meta-chat"><span class="fa fa-comment mr-2"></span> 3</a>
+								</p>
+							</div>
+							<h3 class="heading"><a href="#">Best for any industrial &amp; business solution</a></h3>
+							<p><a href="#" class="btn btn-secondary py-2 px-3">Read more</a></p>
+						</div>
+					</div>
+				</div>
 
+				<div class="col-lg-4 ftco-animate">
+					<div class="blog-entry">
+						<a href="#" class="block-20" style="background-image: url('images/image_2.jpg');">
+						</a>
+						<div class="text d-block">
+							<div class="meta">
+								<p>
+									<a href="#"><span class="fa fa-calendar mr-2"></span>Sept. 06, 2020</a>
+									<a href="#"><span class="fa fa-user mr-2"></span>Admin</a>
+									<a href="#" class="meta-chat"><span class="fa fa-comment mr-2"></span> 3</a>
+								</p>
+							</div>
+							<h3 class="heading"><a href="#">Best for any industrial &amp; business solution</a></h3>
+							<p><a href="#" class="btn btn-secondary py-2 px-3">Read more</a></p>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-4 ftco-animate">
+					<div class="blog-entry">
+						<a href="#" class="block-20" style="background-image: url('images/image_3.jpg');">
+						</a>
+						<div class="text d-block">
+							<div class="meta">
+								<p>
+									<a href="#"><span class="fa fa-calendar mr-2"></span>Sept. 06, 2020</a>
+									<a href="#"><span class="fa fa-user mr-2"></span>Admin</a>
+									<a href="#" class="meta-chat"><span class="fa fa-comment mr-2"></span> 3</a>
+								</p>
+							</div>
+							<h3 class="heading"><a href="#">Best for any industrial &amp; business solution</a></h3>
+							<p><a href="#" class="btn btn-secondary py-2 px-3">Read more</a></p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
 
-    <!-- Testimonial Start -->
-    <div class="container-fluid bg-light py-6 px-5">
-        <div class="text-center mx-auto mb-5" style="max-width: 600px;">
-            <h1 class="display-5 text-uppercase mb-4">What Our <span class="text-primary">Happy Cleints</span> Say!!!</h1>
-        </div>
-        <div class="row gx-0 align-items-center">
-            <div class="col-xl-4 col-lg-5 d-none d-lg-block">
-                <img class="img-fluid w-100 h-100" src="img/testimonial.jpg">
-            </div>
-            <div class="col-xl-8 col-lg-7 col-md-12">
-                <div class="testimonial bg-light">
-                    <div class="owl-carousel testimonial-carousel">
-                        <div class="row gx-4 align-items-center">
-                            <div class="col-xl-4 col-lg-5 col-md-5">
-                                <img class="img-fluid w-100 h-100 bg-light p-lg-3 mb-4 mb-md-0" src="img/testimonial-1.jpg" alt="">
-                            </div>
-                            <div class="col-xl-8 col-lg-7 col-md-7">
-                                <h4 class="text-uppercase mb-0">Client Name</h4>
-                                <p>Profession</p>
-                                <p class="fs-5 mb-0"><i class="fa fa-2x fa-quote-left text-primary me-2"></i> Dolores sed duo
-                                    clita tempor justo dolor et stet lorem kasd labore dolore lorem ipsum. At lorem
-                                    lorem magna ut labore et tempor diam tempor erat. Erat dolor rebum sit
-                                    ipsum.</p>
-                            </div>
-                        </div>
-                        <div class="row gx-4 align-items-center">
-                            <div class="col-xl-4 col-lg-5 col-md-5">
-                                <img class="img-fluid w-100 h-100 bg-light p-lg-3 mb-4 mb-md-0" src="img/testimonial-2.jpg" alt="">
-                            </div>
-                            <div class="col-xl-8 col-lg-7 col-md-7">
-                                <h4 class="text-uppercase mb-0">Client Name</h4>
-                                <p>Profession</p>
-                                <p class="fs-5 mb-0"><i class="fa fa-2x fa-quote-left text-primary me-2"></i> Dolores sed duo
-                                    clita tempor justo dolor et stet lorem kasd labore dolore lorem ipsum. At lorem
-                                    lorem magna ut labore et tempor diam tempor erat. Erat dolor rebum sit
-                                    ipsum.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Testimonial End -->
-
-
-    <!-- Blog Start -->
-    <div class="container-fluid py-6 px-5">
-        <div class="text-center mx-auto mb-5" style="max-width: 600px;">
-            <h1 class="display-5 text-uppercase mb-4">Latest <span class="text-primary">Articles</span> From Our Blog Post</h1>
-        </div>
-        <div class="row g-5">
-            <div class="col-lg-4 col-md-6">
-                <div class="bg-light">
-                    <img class="img-fluid" src="img/blog-1.jpg" alt="">
-                    <div class="p-4">
-                        <div class="d-flex justify-content-between mb-4">
-                            <div class="d-flex align-items-center">
-                                <img class="rounded-circle me-2" src="img/user.jpg" width="35" height="35" alt="">
-                                <span>John Doe</span>
-                            </div>
-                            <div class="d-flex align-items-center">
-                                <span class="ms-3"><i class="far fa-calendar-alt text-primary me-2"></i>01 Jan, 2045</span>
-                            </div>
-                        </div>
-                        <h4 class="text-uppercase mb-3">Rebum diam clita lorem erat magna est erat</h4>
-                        <a class="text-uppercase fw-bold" href="">Read More <i class="bi bi-arrow-right"></i></a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-4 col-md-6">
-                <div class="bg-light">
-                    <img class="img-fluid" src="img/blog-2.jpg" alt="">
-                    <div class="p-4">
-                        <div class="d-flex justify-content-between mb-4">
-                            <div class="d-flex align-items-center">
-                                <img class="rounded-circle me-2" src="img/user.jpg" width="35" height="35" alt="">
-                                <span>John Doe</span>
-                            </div>
-                            <div class="d-flex align-items-center">
-                                <span class="ms-3"><i class="far fa-calendar-alt text-primary me-2"></i>01 Jan, 2045</span>
-                            </div>
-                        </div>
-                        <h4 class="text-uppercase mb-3">Rebum diam clita lorem erat magna est erat</h4>
-                        <a class="text-uppercase fw-bold" href="">Read More <i class="bi bi-arrow-right"></i></a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-4 col-md-6">
-                <div class="bg-light">
-                    <img class="img-fluid" src="img/blog-3.jpg" alt="">
-                    <div class="p-4">
-                        <div class="d-flex justify-content-between mb-4">
-                            <div class="d-flex align-items-center">
-                                <img class="rounded-circle me-2" src="img/user.jpg" width="35" height="35" alt="">
-                                <span>John Doe</span>
-                            </div>
-                            <div class="d-flex align-items-center">
-                                <span class="ms-3"><i class="far fa-calendar-alt text-primary me-2"></i>01 Jan, 2045</span>
-                            </div>
-                        </div>
-                        <h4 class="text-uppercase mb-3">Rebum diam clita lorem erat magna est erat</h4>
-                        <a class="text-uppercase fw-bold" href="">Read More <i class="bi bi-arrow-right"></i></a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Blog End -->
-    
 <?php include 'footer.php'; ?>
