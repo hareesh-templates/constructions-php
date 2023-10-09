@@ -1,0 +1,75 @@
+@import url(//fonts.googleapis.com/css?family=Montserrat:400,700);
+html, body {
+	min-width:300px;
+	height:auto;
+	background:transparent;
+	font-family:'PT Sans', sans-serif;
+	line-height:30px;
+	font-size:15px;
+	letter-spacing:1px;
+}
+
+body {
+	overflow:hidden;
+}
+#search-results{
+	padding:20px 10px 0px 5px;
+	overflow:hidden;
+}
+
+#search-results iframe html{
+	border:none;
+}
+#search-results iframe {
+	min-width:300px;
+	
+}
+
+h4{
+	padding-bottom: 10px;
+	margin: 0;
+	font-size:20px; line-height:1; 
+	font-family:'PT Sans', sans-serif;
+	font-weight:bold;
+	color:#3f3f3f;
+	letter-spacing:0;
+}
+h4 span {color:#f95355;}
+ol.search_list {
+	margin-left: 15px;
+	list-style-type:none;
+	counter-reset: ol;
+}
+ol.search_list li:before {
+	content: counter(ol) ".";
+	counter-increment: ol;
+	float:left;
+	display:block;
+	width:20px;
+	text-align:right;	
+	padding-right:10px;
+	margin:0px 0px 0 -30px
+}
+ol.search_list li {
+	padding-bottom:20px;
+	margin-left:15px;
+}
+span.match {
+	color:#f95355;
+	font-size:10px;
+	display:block;
+	
+}
+span.search {
+	color:#f95355;
+	text-decoration:none;
+}
+.search_link{
+	text-decoration:none;
+	color:#f95355;
+}
+.search_link:hover{
+	text-decoration: none;
+	color:#3f3f3f;
+}
+
