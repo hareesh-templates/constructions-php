@@ -1,112 +1,115 @@
-<?php include 'header.php'; ?>
-<!-- cta-02 -->
-				<div class="cta-02">
-					<div class="container">
-						<div class="row">
-							<div class="col-lg-9 ">
-								<h3 class="cta-02__title">Looking for a high quality constructor company for your project?</h3>
-							</div>
-							<div class="col-lg-3  md-text-right">
-								
-								<!-- btn -->
-								<a class="btn btn-outline" href="#">Get a quote
-								</a><!-- End / btn -->
-								
-							</div>
-						</div>
-					</div>
-				</div><!-- End / cta-02 -->
-<!-- Section -->
-				<section class="md-section" id="id7" style="background-color:#fff;padding:60px 0 0;">
-					<div class="row">
-						<div class="col-lg-8 col-xs-offset-0 col-sm-offset-0 col-md-offset-0 col-lg-offset-2 ">
-							
-							<!-- sec-title -->
-							<div class="sec-title sec-title__lg-title md-text-center">
-								<h2 class="sec-title__title">Contact us</h2><span class="sec-title__divider"></span>
-							</div><!-- End / sec-title -->
-							
-						</div>
-					</div>
-					<div class="container">
-						<div class="row">
-							<div class="col-lg-9  col-lg-push-3">
-								<div class="main-content">
-									<div class="row"> 
-										<div class="col-lg-6 ">
-											<form class="contact-form" action="contact.php" method="post">
-												
-												<!-- form-item -->
-												<div class="form-item">
-													<input class="form-control" type="text" name="name" placeholder="name"/>
-												</div><!-- End / form-item -->
-												
-												
-												<!-- form-item -->
-												<div class="form-item">
-													<input class="form-control" type="text" name="email" placeholder="email"/>
-												</div><!-- End / form-item -->
-												
-												
-												<!-- form-item -->
-												<div class="form-item">
-													<input class="form-control" type="text" name="phno" placeholder="phone"/>
-												</div><!-- End / form-item -->
-												
-												
-												<!-- form-item -->
-												<div class="form-item">
-													<input class="form-control" type="text" name="subject" placeholder="subject"/>
-												</div><!-- End / form-item -->
-												
-												
-												<!-- form-item -->
-												<div class="form-item">
-													<textarea name="content" placeholder="Message" style="height: 150px;"></textarea>
-												</div><!-- End / form-item -->
-												
-												<input type="submit" class="btn btn-primary btn-round mb-30" value="Send message" name="btn_contact">
-											</form>
-										</div>
-										<div class="col-lg-6">
-											<div class="contact-gmap"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d243207.72693901445!2d83.12250282511745!3d17.738949531289414!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a39431389e6973f%3A0x92d9c20395498468!2sVisakhapatnam%2C%20Andhra%20Pradesh!5e0!3m2!1sen!2sin!4v1664789132095!5m2!1sen!2sin" width="100%" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
-										</div>
-										</div>
-									</div>
-								</div>
-							</div>
-							<div class="col-lg-3  col-lg-pull-9">
-								<div class="sidebar">
-									
-									<!-- widget -->
-									<section class="widget">
-										
-										<!-- sec-title -->
-										<div class="sec-title">
-											<h2 class="sec-title__title">The Key Corner</h2><span class="sec-title__divider"></span>
-										</div><!-- End / sec-title -->
-										
-										<!-- <p class="mb-30">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos ad sunt est. Eaque odit, et nihil saepe. Eveniet autem, sit quisquam iusto soluta assumenda impedit possimus nesciunt fugiat aut in.</p> -->
-										
-										<!--  -->
-										<div>
-											<div class="widget-contact__item"><span class="widget-contact__title">Tel:</span>
-												<p class="widget-contact__text">+91 9951929950</p>
-											</div>
-											<div class="widget-contact__item"><span class="widget-contact__title">email:</span>
-												<p class="widget-contact__text"><a href="#">admin@thekeycorner.com</a></p>
-											</div>
-											<div class="widget-contact__item"><span class="widget-contact__title">Website</span>
-												<p class="widget-contact__text">https://thekeycorner.com/</p>
-											</div>
-										</div><!-- End /   -->
-										
-									</section><!-- End / widget -->
-									
-								</div>
-							</div>
-						</div>
-					</div>
-				</section>
-				<!-- End / Section -->
-			<?php include 'footer.php'; ?>
+<?php include 'header2.php'; ?>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style type="text/css">
+
+
+   body {
+    background-image: url(2.jpeg);
+   /* background-position: center center;*/
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: #464646;
+}
+.sidenav{
+      background-image: url(contact_new.png);
+    /*background-position: center center;*/
+    background-repeat: no-repeat;
+
+    background-size: cover;
+    background-color: #464646;
+}
+.btn-info {
+    color: #fff;
+    background-color: #00000094;
+    border-color: #0000;
+    border-radius:50%;
+}
+.mobp{
+    text-align:left!important;
+    color:#fff;
+    font-size:20px;
+}
+.vl {
+  border-left: 6px solid green;
+  height: 500px;
+}
+.seperator {
+  height: 100%;
+  width: 5px;
+  background: black;
+  margin: 100px auto;
+  top: 0;
+  bottom: 0;
+  position: absolute;
+  left: 50%;
+}
+.mobp2{
+    padding-left:55px;
+}
+@media only screen and (max-width: 600px){
+    .sidenav {
+      background-image: url(contact_new2.png);
+      height:500px;
+    }
+    .seperator {
+        background: #00000038;
+    }
+    .mobp{
+    text-align:left!important;
+}
+  }
+</style>
+<div class="container-fluid" style="margin-top:50px;">
+  <div class="row content">
+      
+  
+    <div class="col-sm-5">
+        <h1 style="    font-weight: bold; text-align: center;font-size: 50px;">OUR CONTACT</h1>
+        
+        <div class="row">
+            <div class="col-md-12" style="text-align:center;">
+                <!--<h3 style="    color: #fff;  font-weight: 600;">   </h3> -->
+               
+                <p class="mobp"><a href="#" class="btn btn-info btn-lg">
+                  <span class="glyphicon glyphicon-earphone"></span>
+                </a> <strong>Mobile Number:</strong> <br> <span class="mobp2"><a class="mobp" href="tel:+919959299611">+919959299611</a>,<br></span><span class="mobp2">  <a class="mobp" href="tel:08914804682">08914804682</a></span></p>
+                
+                
+                 <p class="mobp"><a href="#" class="btn btn-info btn-lg">
+                  <span class="glyphicon glyphicon-envelope"></span>
+                </a> <strong>Email Address:</strong> <br><span class="mobp2"> <a class="mobp" href="mailto:admin@thekeycorner.com">admin@thekeycorner.com</a></span></p>
+                
+               
+               
+                <p class="mobp"><a href="#" class="btn btn-info btn-lg">
+                  <span class="glyphicon glyphicon-map-marker"></span>
+                </a> <strong>Address:</strong><br><span><span class="mobp2"> D. No: 1-104-21,</span><br><span class="mobp2">TTD Kalyanamandapam Road,</span><br> <span class="mobp2">  opp. Sri Satya Sai Vidya Vihar<br></span><span class="mobp2"> School Arch,<br></span><span class="mobp2">Sector-5, MVP Colony,<br></span><span class="mobp2"> Visakhapatnam,</span><br>   <span class="mobp2">Andhra Pradesh, 530017.</span></p>
+                 <a href="#" class="fa fa-facebook"></span></a>
+<a href="#" class="fa fa-linkedin"></a>
+<a href="#" class="fa fa-instagram"></a>
+            </div>
+            <!--<div class="seperator">-->
+            <!--</div>-->
+            
+        </div>
+    
+    </div>
+
+    <div class="col-sm-7 contact_img">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3800.121913725799!2d83.3338423!3d17.7388939!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a3943eeffd4e48f%3A0xe882168545ad7eeb!2sTKC%20Design%20%26%20Build%20Pvt.Ltd%20I%20THE%20KEY%20CORNER%20%7C%20Construction%20%7C%20Design%20(Architectural%2C%20Engineering%20%26%20Interiors)%20I%20PMC!5e0!3m2!1sen!2sin!4v1667137682310!5m2!1sen!2sin" width="100%" height="550" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+  </div>
+<!--    <div class="row" style="text-align:left">    -->
+<!--    <a href="#" class="fa fa-facebook"></a>-->
+<!--<a href="#" class="fa fa-linkedin"></a>-->
+<!--<a href="#" class="fa fa-instagram"></a>-->
+<!--</div>-->
+ 
+ 
+</div>
+
+<?php include 'footer.php'; ?>
+
+</body>
+</html>

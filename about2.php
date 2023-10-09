@@ -69,7 +69,7 @@
     .vision_img{
         width: 170%;
     height: auto;
-    margin-left: -120px;
+    /*margin-left: -100px;*/
     margin-top: -60px;
     }
   }
@@ -88,9 +88,7 @@
   
   </div> 
 
-  
-  
-    <div class="row">
+  <div class="row">
     <div class="col-sm-12">
         <div class="col-sm-6">
           <img src="tkc5.png" class="vision_img" style="">
@@ -106,69 +104,7 @@
     </div>
     
     
-     <div class="row">
-    <div class="col-sm-12">
-     <div class="col-sm-6">
-        <img src="bbb1.png" style="margin-top: -50px; width: 60%;";>
-
-     </div>
-      <div class="col-sm-6">
-           <h1 class="about_h">TKC Design & Build Pvt Ltd</h1> 
-        <p class="about_p">Our mission is to become the trailblazer with innovative designs and state of the art execution; to work in accordance with the clients’ requirements and surpass their expectations in terms of quality, cost effectiveness and time management; to become the client’s first choice by creating an outstanding workmanship in work execution; to make the clients’ comfortable; we are to be loved than being understood</p>
-      </div>
-      </div>
-      
-    </div>
-    
-    <div class="row" style="margin-top:50px;">
-    <div class="col-sm-1"></div>
-    <div class="col-sm-2">
-      <div class="panel panel-primary">
-        <div class="panel-body"><img src="ab1.jpg" class="img-responsive" style="width: 150px;
-    height: 150px; border-radius: 75px;" alt="Image"></div>
-        <div class="panel-footer"><h3>Chandu</h3><h4>Web Developer</h4></div>
-      </div>
-    </div>
-    <div class="col-sm-2">
-      <div class="panel panel-primary">
-        <div class="panel-body"><img src="ab1.jpg" class="img-responsive" style="width: 150px;
-    height: 150px; border-radius: 75px;" alt="Image"></div>
-        <div class="panel-footer"><h3>Chandu</h3><h4>Web Developer</h4></div>
-      </div>
-    </div>
-   <div class="col-sm-2">
-      <div class="panel panel-primary">
-        <div class="panel-body"><img src="ab1.jpg" class="img-responsive" style="width: 150px;
-    height: 150px; border-radius: 75px;" alt="Image"></div>
-        <div class="panel-footer"><h3>Chandu</h3><h4>Web Developer</h4></div>
-      </div>
-    </div>
-    <div class="col-sm-2">
-      <div class="panel panel-primary">
-        <div class="panel-body"><img src="ab1.jpg" class="img-responsive" style="width: 150px;
-    height: 150px; border-radius: 75px;" alt="Image"></div>
-        <div class="panel-footer"><h3>Chandu</h3><h4>Web Developer</h4></div>
-      </div>
-    </div>
-    <div class="col-sm-2">
-      <div class="panel panel-primary">
-        <div class="panel-body"><img src="ab1.jpg" class="img-responsive" style="width: 150px;
-    height: 150px; border-radius: 75px;" alt="Image"></div>
-        <div class="panel-footer"><h3>Chandu</h3><h4>Web Developer</h4></div>
-      </div>
-    </div>
-    <!--<div class="col-sm-2">-->
-    <!--  <div class="panel panel-primary">-->
-    <!--    <div class="panel-body"><img src="ab1.jpg" class="img-responsive" style="width: 150px;-->
-    <!--height: 150px; border-radius: 75px;" alt="Image"></div>-->
-    <!--    <div class="panel-footer"><h3>Chandu</h3><h4>Web Developer</h4></div>-->
-    <!--  </div>-->
-    <!--</div>-->
-  </div>
-  
-  
-  </div> 
-
+ 
 </div>
 
 <?php include 'footer.php'; ?>
